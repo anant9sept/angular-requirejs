@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <title>AngularJS Require Test 1</title>
+
+    </head>
+
+    <body>
+
+        <div ng-controller="HelloWorldCtrl">
+          <input type="text" ng-model="message" /> {{ message }}
+          <br>
+          Uppercase Filter: {{ message | uppercaseFilter }}
+          <br>
+          Lowercase Filter: {{ message | lowercaseFilter }}
+          <br>
+          Directive as Attribute: <div hodor></div>
+        </div>
+        <script data-main="src/main" src="assets/js/requirejs/require.js"></script>
+    </body>
+</html>

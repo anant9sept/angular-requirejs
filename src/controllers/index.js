@@ -1,0 +1,3 @@
+define([
+    './helloworld-ctrl'
+], function () {});

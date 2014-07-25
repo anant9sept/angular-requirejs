@@ -1,0 +1,3 @@
+define([
+	'./hodor-directive'
+], function() {})
